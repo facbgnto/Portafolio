@@ -1,0 +1,15 @@
+.bg-blueDiesel{
+    background-color: #112B3C;
+}
+.lettercolor{
+    color: #EFEFEF !important;
+}
+.logo{
+    border-color: #F66B0E 5px !important;
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5px;
+    
+}
