@@ -24,6 +24,26 @@ body{
     background-position: left;
     height: 100%;
   }
+#trabajos {
+    background-color: #112B3C;
+}
+
+
+
+
+  .card-body img {
+    width: 100%;
+    height: 100%;
+    
+    }
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
 #contacto{
     background-color: #F66B0E;
 } 
