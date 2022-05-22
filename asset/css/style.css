@@ -1,0 +1,39 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+.bg-blueDiesel{
+    background-color: #112B3C;
+}
+.lettercolor{
+    color: #EFEFEF !important;
+}
+.logo{
+    border-color: #F66B0E 6px !important;
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5px;
+    padding-left: 2%;
+}
+
+#Banner-Section {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+  }
+#contacto{
+    background-color: #F66B0E;
+} 
+#contacto p{
+    color: #EFEFEF !important;
+}
+
+footer{
+    background-color: #205375 ;
+}
+footer p{
+    color: #EFEFEF;
+}

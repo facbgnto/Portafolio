@@ -5,32 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/asset/css/style.css">
     <script src="https://kit.fontawesome.com/251adec713.js" crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;800&display=swap" rel="stylesheet">
     <title>Felipe Cruz</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-md px-3 navbar-dark d-flex justify-content-betwwen bg-black">
-            <!-- white logo -->
-            <a class="navbar-brand p-0" href="#">
-              <img src="/asset/img/logo.jpg" alt="logo blanco" height="40" class="w-100">
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-              <div class="navbar-nav ms-3">
-                <a class="nav-link active " aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled">Disabled</a>
+        <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-blueDiesel">
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="index.html">
+                <img src="asset/img/logo.jpg" class="rounded-3 border border-warning logo" alt="Logo FCRuz" height="40">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse position-absolute  end-0" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link lettercolor active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lettercolor" href="#acercaDeMi">Acerca de mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lettercolor" href="#trabajos">Trabajos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lettercolor" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link lettercolor disabled" href="#contacto" >Contacto</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
-    </div>
+ <!-- fin navbar -->
+      <header id="Banner-Section" class="text-light text-end py-5 ">
+             <div class="container">
+                <div class="ms-auto col-12 col-md-12 text-start">
+                <h3 class="display-1  fw-bold">
+                    Desarrollador Full Stack JavaScript
+                </h3>
+                <div class="mb-5 pb-5 text-end">
+                    <a class="text-decoration-none text-light"  href="https://www.instagram.com/facbgnto/">
+                    <i class="fa-brands fa-instagram fa-3x my-3 "></i>
+                    </a>
+                    <a class="text-decoration-none text-light" href="https://www.facebook.com/facbgnto">
+                    <i class="fa-brands fa-facebook fa-3x my-3"></i>
+                    </a>
+                    <a class="text-decoration-none text-light" href="https://github.com/facbgnto">
+                    <i class="fa-brands fa-github fa-3x my-3"></i>
+                    </a>
+                    <a class="text-decoration-none text-light" href="https://github.com/facbgnto">
+                    <a class="text-decoration-none text-light" href="https://www.linkedin.com/in/felipe-cruz-1355b12b/">
+                    <i class="fa-brands fa-linkedin fa-3x my-3"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+                
+      </header>
+      <section id="acercaDeMi"></section>
+      <section id="trabajos"></section>
+      <section id=""></section>
+
+
+      <section id="contacto">
+        <p class="text-center fa-3x p-3">Contacto</p>
+        <form class="mx-5">
+          <div class="mb-3">
+
+            <input type="text" placeholder="Nombre" class="form-control" id="Nombre" >
+        
+          </div>
+          <div class="mb-3">
+       
+            <input type="email" placeholder="Correo"  class="form-control" id="email">
+          </div>
+          <div>
+
+            <textarea class="form-control"    placeholder="Escribe aquí tu mensaje..."  id="Escribe aquí tu mensaje." rows="3"></textarea>
+          </div>
+          <button  type="submit" class="btn btn-primary mt-3 mb-3">Enviar</button>
+        </form>
+      </section>
+
+
+
+      <footer class="text-center text-light p-4">
+            <div class="Redes_footer">
+              <a class="text-decoration-none text-light"  href="https://www.instagram.com/facbgnto/">
+              <i class="fa-brands fa-instagram fa-2x  "></i>
+              </a>
+              <a class="text-decoration-none text-light" href="https://www.facebook.com/facbgnto">
+              <i class="fa-brands fa-facebook fa-2x "></i>
+              </a>
+              <a class="text-decoration-none text-light" href="https://github.com/facbgnto">
+              <i class="fa-brands fa-github fa-2x "></i>
+              </a>
+              <a class="text-decoration-none text-light" href="https://github.com/facbgnto">
+              <a class="text-decoration-none text-light" href="https://www.linkedin.com/in/felipe-cruz-1355b12b/">
+              <i class="fa-brands fa-linkedin fa-2x "></i>
+              </a>
+          </div>
+            <p class="mb-0">Felipe Cruz Bonilla2021. Todos los derechos reservados.</p>
+        </footer>
+   
     <script src="/asset/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
