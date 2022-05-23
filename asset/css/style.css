@@ -27,9 +27,9 @@ body{
 #trabajos {
     background-color: #112B3C;
 }
-
-
-
+#trabajo .btn{
+    background-color: #F66B0E
+}
 
   .card-body img {
     width: 100%;
