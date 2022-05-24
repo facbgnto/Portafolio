@@ -15,8 +15,9 @@
 </head>
 
 <body>
+ 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-blueDiesel">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-blueDiesel sticky-top">
             <div class="container-fluid">
               <a class="navbar-brand logo" href="index.html">
                 <img src="asset/img/logo.jpg" class="rounded-3 border border-warning logo" alt="Logo FCRuz" height="40">
@@ -34,7 +35,7 @@
                 id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                   <li class="nav-item">
-                    <a class="nav-link lettercolor active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link lettercolor active fade" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link lettercolor" href="#acercaDeMi">Acerca de mí</a>
@@ -59,7 +60,7 @@
                 <h3 class="display-1  fw-bold">
                     Desarrollador Full Stack JavaScript
                 </h3>
-                <div class="mb-5 pb-5 text-end">
+                <div class="iconos mb-5 pb-5 text-end">
                     <a class="text-decoration-none text-light"  href="https://www.instagram.com/facbgnto/">
                     <i class="fa-brands fa-instagram fa-3x my-3 "></i>
                     </a>
@@ -83,7 +84,7 @@
 <section id="acercaDeMi" class="container-sm my-3 mx-auto">
   <div class="row w-100 mx-auto">
     <div class=" col-12 col-md-6 col-lg-5 mb-3">
-      <div class="w-100">
+      <div class="w-100 border rounded-3">
         <img src="asset/img/felipecruz.JPG" alt="" id="imagen perfil" class="w-100 rounded">
       </div>
     </div>
@@ -143,14 +144,14 @@
 <!-- end Acerca de mi -->
 
 <!-- Seccion de TRabajos -->
-      <section id="trabajos" class=" p-3 ">
+      <section id="trabajos" class="p-3">
 
           <h2 class="display-4 fw-bold text-center text-light mb-3">
             Mis trabajos
           </h2>
 
           <div class="row">
-            <div class="col-12 col-sm-4 py-2">
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
               <div class="card">
                 <div
                   class="image-top"
@@ -165,17 +166,43 @@
                   <p class="card-text">
                     Sitio dedicado a ofertas de servicios
                   </p>
+                  <div class="accordion accordion-flush" id="accordionFlush-1">
+                    <div class="accordion-item1">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button text-light collapsed" tabindex="-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Tecnologia
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush-1">
+                        <div class="accordion-body text-center">
+                          <img src="/asset/img/html5.png" alt="html5">
+                          <img src="/asset/img/css.png" alt="css">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
                   <a
                     type="button"
-                    class="btn btn-outline-info"
+                    class="btn text-light"
                     href="https://facbgnto.github.io/desafioLatamFullStack/bootstrap/desafio/index.html"
+                    target="_blank"
                    >
                     Ver
                   </a>
+                  <a
+                  type="button"
+                  class="btn text-light"
+                  href="https://github.com/facbgnto/desafioLatamFullStack/tree/main/bootstrap/desafio"
+                  target="_blank"
+                 >
+                  github
+                </a>
+                </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
               <div class="card">
                 <div
                   class="image-top"
@@ -185,19 +212,46 @@
                   <img src="./asset/img/trabajo2.jpg" alt="" />
                   <h5 class="card-title fw-bold text-center">Sitio Iguanas</h5>
                   <p class="card-text">
-                    Sitio dedicados al mundo de las Iguanas.
+                      Sitio dedicados al mundo de las Iguanas.
                   </p>
+
+                  <div class="accordion accordion-flush" id="accordionFlush-2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Tecnologia
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush-2">
+                        <div class="accordion-body text-center">
+                          <img src="/asset/img/html5.png" alt="html5">
+                          <img src="/asset/img/css.png" alt="css">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer">
                   <a
                     type="button"
-                    class="btn btn-outline-info"
+                    class="btn text-light"
                     href="https://facbgnto.github.io/desafioLatamFullStack/Posicionamiento/Desafio/index.html"
+                    target="_blank"
                   >
                     Ver
                   </a>
+                  <a
+                  type="button"
+                  class="btn text-light"
+                  href="https://github.com/facbgnto/desafioLatamFullStack/tree/main/Posicionamiento/Desafio"
+                  target="_blank"
+                 >
+                  github
+                </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-4 py-2">
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
               <div class="card">
                 <div
                   class="image-top"
@@ -209,13 +263,39 @@
                   <p class="card-text">
                     REsumen de mi Curriculum
                   </p>
+
+                  <div class="accordion accordion-flush" id="accordionFlush-3">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Tecnologia
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush-3">
+                        <div class="accordion-body text-center">
+                          <img src="/asset/img/html5.png" alt="html5">
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer ">
                   <a
                     type="button"
-                    class="btn btn-outline-info"
+                    class="btn text-light"
                     href="https://facbgnto.github.io/desafioLatamFullStack/html/desafio_1/index.html"
+                    target="_blank"
                   >
                     Ver
                   </a>
+                  <a
+                  type="button"
+                  class="btn text-light "
+                  href="https://github.com/facbgnto/desafioLatamFullStack/tree/main/html/desafio_1"
+                  target="_blank"
+                 >
+                  github
+                </a>
+                </div>
                 </div>
               </div>
             </div>
@@ -239,14 +319,14 @@
           <textarea class="form-control" placeholder="Escribe aquí tu mensaje..." id="Escribe aquí tu mensaje."
           rows="3"></textarea>
       </div>
-          <button  type="submit" class="btn btn-primary mt-3 mb-3">Enviar</button>
+          <button  type="submit" class="btn text-light mt-3 mb-3">Enviar</button>
         </form>
       </section>
 <!-- end Seccion de contacto -->
 
 
       <footer class="text-center text-light p-4">
-            <div class="Redes_footer">
+            <div class="iconos">
               <a class="text-decoration-none text-light"  href="https://www.instagram.com/facbgnto/">
               <i class="fa-brands fa-instagram fa-2x  "></i>
               </a>
