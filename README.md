@@ -3,7 +3,7 @@ Portafolio
   Mi [Github-page](https://facbgnto.github.io/Portafolio/)
 
 
-Forkeo a Rolando Inojoza
+Forkeo a Compañeros 
 
 - [Rolando Inojoza](https://github.com/Rolox87/DesafioFinalPortafolio/pull/2/commits/62a718f8c6a500a10990ed0604fd20d39152ebd0)
 
